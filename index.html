@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <title>NeoVideo U+1F923</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        
+        <header style="background: rgb(46, 144, 219); height: 100px;">   
+                <div class="logo">
+                    <img src="Logo4head.svg" alt="Logo">
+                  </div>
+                  <nav>
+                    <ul class="menu">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">About</a></li>
+                    </ul>
+                  </nav>
+                  <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                  </div>
+        </header>
+        
+    <div class="container">
+        <main>
+            <div>
+                <video 
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                width="640"
+                height="264"
+                data-setup="{}"
+                >
+                    <source src="http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8" type="application/x-mpegURL">
+                </video>
+                <p><h4>Номер дома, имя камеры</h4></p>
+            </div>
+        </main>
+    </div>
+    <script defer src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+    </body>
+
+</html>
